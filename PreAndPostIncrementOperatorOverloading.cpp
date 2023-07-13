@@ -22,7 +22,7 @@ class Integer
             temp.x = ++ (this->x);
             return temp;
         }
-        //Post Increment
+        //Post Increment : int is just passed so that compiler can distinguish between both versions of ++
         Integer operator ++ (int)
         {
             Integer temp;
